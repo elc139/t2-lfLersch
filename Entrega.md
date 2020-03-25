@@ -1,5 +1,10 @@
 ## Luiz Felipe Lehmen Lersch
 ## elc139-Programação Paralela
+
+[specs.txt](specs.txt)
+[results.csv](results.csv)
+
+
 ### Questões Pthreads
 
 ### 1)
