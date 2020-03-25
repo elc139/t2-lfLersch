@@ -35,14 +35,14 @@ thread 1:  calculará dos índices 0*(640000 -1);
 thread 2:  calculará dos índices 1*(640000 -1);
 
 2)
-Speedup(2 threads) = T(1 thread)/T(2 threads)
-Speedup = 2,001820656
+Speedup(2 threads) = T(1 thread)/T(2 threads)  Speedup = 2,001820656
 
 
 3)
 Enquanto a aceleração melhora na sequencia 1->2->4 threads(98s->49s->37s), a partir da mudança de 4->8 o tempo estabiliza entre 37s e 38s devido ao número de threads suportado pelo computador.
 
 4)
+![Gráfio](GRAFICO.png)
 
 5)
 Para responder chamarei phtread_dotprod.c de CÓDIGO1 e o phtread_dotprod2.c de CÓDIGO2.
