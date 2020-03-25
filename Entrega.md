@@ -58,7 +58,18 @@ EX: THREAD 1 acessa dotdata.c = 10 e somará com mysum = 2. Se alguma thread ace
 [OpenMP_dotprod.c](Códigos/OpenMP_dotprod.c)
 
 ### 2) 
-O programa em OpenMp apresentou resultados semelhantes ao Pthread comparando 1 E 2 threds, entretanto apresentou significatica melhora com 4 e 8 threads.
+O programa em OpenMp apresentou resultados semelhantes ao Pthread comparando 1 E 2 threds, entretanto apresentou significatica melhora com 4 e 8 threads. A tabela abaixo mostra a comparação:
+
+| tool     | nthreads | size    | repetitions | usec     | 
+|----------|----------|---------|-------------|----------| 
+| Pthreads | 1        | 1280000 | 20000       | 98192410 | 
+| Pthreads | 2        | 640000  | 20000       | 49051552 | 
+| Pthreads | 4        | 320000  | 20000       | 37016306 | 
+| Pthreads | 8        | 160000  | 20000       | 38391363 | 
+| OpenMP   | 1        | 1280000 | 20000       | 97894289 | 
+| OpenMP   | 2        | 640000  | 20000       | 49051552 | 
+| OpenMP   | 4        | 320000  | 20000       | 30439721 | 
+| OpenMP   | 8        | 160000  | 20000       | 30204819 | 
 
 ### Referências: 
 https://www.youtube.com/watch?v=nE-xN4Bf8XI&list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
