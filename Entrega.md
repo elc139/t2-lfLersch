@@ -1,4 +1,5 @@
-**Luiz Felipe Lehmen Lersch</br>elc139-Programação Paralela
+**Luiz Felipe Lehmen Lersch
+elc139-Programação Paralela
 
 ## 1)
 TRECHO 1
