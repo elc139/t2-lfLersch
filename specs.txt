@@ -1,0 +1,10 @@
+Processador:
+
+Intel Core i5-7200U
+2 cores (4 Threads)
+3.1G Hz
+
+Memória: 8GB
+
+SO: Ubuntu
+
