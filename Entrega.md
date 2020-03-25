@@ -1,7 +1,7 @@
-Luiz Felipe Lehmen Lersch 
+##**Luiz Felipe Lehmen Lersch 
 elc139-Programação Paralela
 
-1)
+##1)
 TRECHO 1
 mysum += (a[i] * b[i]);
 
