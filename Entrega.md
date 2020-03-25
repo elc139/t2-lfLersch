@@ -1,7 +1,7 @@
-##**Luiz Felipe Lehmen Lersch 
+## **Luiz Felipe Lehmen Lersch 
 elc139-Programação Paralela
 
-##1)
+## 1)
 TRECHO 1
 mysum += (a[i] * b[i]);
 
@@ -34,17 +34,17 @@ EX: threads = 2, wsize = 640000
 thread 1:  calculará dos índices 0*(640000 -1);
 thread 2:  calculará dos índices 1*(640000 -1);
 
-2)
+## 2)
 Speedup(2 threads) = T(1 thread)/T(2 threads)  Speedup = 2,001820656
 
 
-3)
+## 3)
 Enquanto a aceleração melhora na sequencia 1->2->4 threads(98s->49s->37s), a partir da mudança de 4->8 o tempo estabiliza entre 37s e 38s devido ao número de threads suportado pelo computador.
 
-4)
+## 4)
 ![Gráfico](Imagens/GRAFICO.png)
 
-5)
+## 5)
 Para responder chamarei phtread_dotprod.c de CÓDIGO1 e o phtread_dotprod2.c de CÓDIGO2.
 
 A diferença entre os códigos 1 e 2 é o mutex implementado no TRECHO 3, o CÓDIGO1 tem o mutex enquanto o CÓDIGO2 não. Esse mutex faz com que somente 1 thread possa fazer a soma da variável dotdata.c com a mysum de cada vez. Já que não tem o mutex, o CÓDIGO2 pode apresentar erros se mais de uma thread acessar o valor da variável dotdata.c ao mesmo tempo, já que as threads usariam o mesmo valor para a soma.
