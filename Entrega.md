@@ -35,6 +35,7 @@ thread 1:  calculará dos índices 0*(640000 -1);
 thread 2:  calculará dos índices 1*(640000 -1);
 
 2)
+Speedup(2 threads) = T(1 thread)/T(2 threads)
 Speedup = 2,001820656
 
 
