@@ -2,7 +2,7 @@
 ## elc139-Programação Paralela
 # Questões Pthreads
 
-# 1)
+#### 1)
 TRECHO 1
 mysum += (a[i] * b[i]);
 
