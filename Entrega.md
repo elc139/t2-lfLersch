@@ -60,6 +60,6 @@ EX: THREAD 1 acessa dotdata.c = 10 e somará com mysum = 2. Se alguma thread ace
 ### 2) 
 O programa em OpenMp apresentou resultados semelhantes ao Pthread comparando 1 E 2 threds, entretanto apresentou significatica melhora com 4 e 8 threads.
 
-Referências: 
+### Referências: 
 https://www.youtube.com/watch?v=nE-xN4Bf8XI&list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 https://stackoverflow.com/questions/2396430/how-to-use-lock-in-openmp
